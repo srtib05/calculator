@@ -1,0 +1,45 @@
+html, body {
+    background-color: black;
+}
+
+.display {
+    background-color: lightblue;
+    height: 20vh;
+}
+
+button {
+    background-color: grey;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.digit-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 66%;
+    height: 66%;
+}
+
+.digit-container button {
+    flex-basis: 33%;
+    height: 33%;
+    font-size: 40px;
+}
+
+.operator-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+}
+
+.operator-container button {
+    height: 20%;
+    font-size: 40px;
+}
+
